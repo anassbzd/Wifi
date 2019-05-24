@@ -62,6 +62,7 @@ public:
         retranslateUi(MainWindow);
         QObject::connect(pushCo, SIGNAL(clicked()), MainWindow, SLOT(connect()));
         QObject::connect(pushCo_2, SIGNAL(clicked()), MainWindow, SLOT(disconnect()));
+        QObject::connect(pushButton, SIGNAL(clicked()), MainWindow, SLOT(avancer()));
 
         QMetaObject::connectSlotsByName(MainWindow);
     } // setupUi

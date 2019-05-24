@@ -109,9 +109,26 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>avancer()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>137</x>
+     <y>145</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>70</x>
+     <y>258</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>connect()</slot>
   <slot>disconnect()</slot>
+  <slot>avancer()</slot>
  </slots>
 </ui>

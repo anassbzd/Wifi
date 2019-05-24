@@ -25,3 +25,8 @@ void MainWindow::disconnect()
 {
     Robot.disConnect();
 }
+
+void MainWindow::avancer()
+{
+    Robot.avancer();
+}

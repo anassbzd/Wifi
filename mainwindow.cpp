@@ -7,7 +7,6 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-
 }
 
 MainWindow::~MainWindow()
@@ -16,7 +15,13 @@ MainWindow::~MainWindow()
 }
 
 static MyRobot Robot;
+
 void MainWindow::connect()
 {
-  Robot.doConnect();
+    Robot.doConnect();
+}
+
+void MainWindow::disconnect()
+{
+    Robot.disConnect();
 }

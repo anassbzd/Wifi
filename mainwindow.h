@@ -17,7 +17,7 @@ public:
 
 public slots:
     void connect();
-
+    void disconnect();
 
 private:
     Ui::MainWindow *ui;

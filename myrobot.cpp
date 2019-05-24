@@ -35,8 +35,8 @@ void MyRobot::doConnect() {
         return;
     }
     TimerEnvoi->start(75);
-
 }
+
 
 void MyRobot::disConnect() {
     TimerEnvoi->stop();
